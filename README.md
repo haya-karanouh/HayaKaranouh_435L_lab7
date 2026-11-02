@@ -67,16 +67,3 @@ python -m pytest -v test_user_Haya_Karanouh.py
   `empty_wallet` and `wallet` fixtures, including insufficient funds (5 tests).
 - `hello_add.py` and `test_hello_add.py`: POST `/add` returns HTTP 200 and
   `{"sum": 3}` for `{"a": 1, "b": 2}` (1 test).
-
-## Verification and submission
-
-**Result: 34 passed** (25 graded-activity tests and 9 tutorial tests).
-
-`screenshots/` contains actual captures of successful terminal runs.
-`test-results/` contains the corresponding text output and JUnit XML report.
-
-Upload `Lab7-Haya-Karanouh.zip` and the main successful-run screenshot
-`screenshots/01-all-tests-passed.png` to Moodle as requested by the lab.
-The archive includes the screenshot folder as well. A virtual environment and
-runtime databases are intentionally excluded; the application creates its
-database automatically, and tests always create isolated databases.
