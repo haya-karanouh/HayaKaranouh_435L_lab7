@@ -1,0 +1,34 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.14.3, pytest-9.2.0, pluggy-1.7.0 -- /Users/hayakaranouh/Desktop/435 labs/Lab5_435_hayakaranouh /.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/hayakaranouh/Desktop/435 labs/Lab5_435_hayakaranouh /Lab7-Haya-Karanouh
+configfile: pytest.ini
+collecting ... collected 25 items
+
+test_user_Haya_Karanouh.py::test_database_created_with_specified_users_on_first_app_run PASSED [  4%]
+test_user_Haya_Karanouh.py::test_database_initialization_does_not_duplicate_users PASSED [  8%]
+test_user_Haya_Karanouh.py::test_insert_user PASSED                      [ 12%]
+test_user_Haya_Karanouh.py::test_insert_user_rejects_missing_required_field PASSED [ 16%]
+test_user_Haya_Karanouh.py::test_get_users PASSED                        [ 20%]
+test_user_Haya_Karanouh.py::test_get_users_when_empty PASSED             [ 24%]
+test_user_Haya_Karanouh.py::test_get_user_by_id PASSED                   [ 28%]
+test_user_Haya_Karanouh.py::test_get_user_by_id_when_missing PASSED      [ 32%]
+test_user_Haya_Karanouh.py::test_update_user PASSED                      [ 36%]
+test_user_Haya_Karanouh.py::test_update_user_when_missing PASSED         [ 40%]
+test_user_Haya_Karanouh.py::test_delete_user PASSED                      [ 44%]
+test_user_Haya_Karanouh.py::test_delete_user_when_missing PASSED         [ 48%]
+test_user_Haya_Karanouh.py::test_api_get_user PASSED                     [ 52%]
+test_user_Haya_Karanouh.py::test_api_get_users PASSED                    [ 56%]
+test_user_Haya_Karanouh.py::test_api_get_user_when_missing PASSED        [ 60%]
+test_user_Haya_Karanouh.py::test_api_add_user PASSED                     [ 64%]
+test_user_Haya_Karanouh.py::test_api_add_user_rejects_missing_field PASSED [ 68%]
+test_user_Haya_Karanouh.py::test_api_add_user_rejects_non_json PASSED    [ 72%]
+test_user_Haya_Karanouh.py::test_api_update_user PASSED                  [ 76%]
+test_user_Haya_Karanouh.py::test_api_update_user_when_missing PASSED     [ 80%]
+test_user_Haya_Karanouh.py::test_api_update_user_rejects_missing_field PASSED [ 84%]
+test_user_Haya_Karanouh.py::test_api_update_user_rejects_invalid_id PASSED [ 88%]
+test_user_Haya_Karanouh.py::test_api_delete_user PASSED                  [ 92%]
+test_user_Haya_Karanouh.py::test_api_delete_user_when_missing PASSED     [ 96%]
+test_user_Haya_Karanouh.py::test_api_delete_user_twice PASSED            [100%]
+
+============================== 25 passed in 0.22s ==============================

@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.14.3, pytest-9.2.0, pluggy-1.7.0
+rootdir: /Users/hayakaranouh/Desktop/435 labs/Lab5_435_hayakaranouh /Lab7-Haya-Karanouh
+configfile: pytest.ini
+testpaths: .
+collected 34 items
+
+test_capitalize.py ...                                                   [  8%]
+test_hello_add.py .                                                      [ 11%]
+test_user_Haya_Karanouh.py .........................                     [ 85%]
+test_wallet.py .....                                                     [100%]
+
+- generated xml file: /Users/hayakaranouh/Desktop/435 labs/Lab5_435_hayakaranouh /Lab7-Haya-Karanouh/test-results/pytest-results.xml -
+============================== 34 passed in 0.30s ==============================
